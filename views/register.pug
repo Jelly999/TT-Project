@@ -1,0 +1,9 @@
+block content
+  a(class='button' href='/login') Login
+  h1 Register
+  form(action="/register" method="POST")
+    label(for="username") Username 
+    input(type="username" name="username" id="username" required)
+    label(for="password") Password 
+    input(type="password" name="password" id="password" required)
+    input(class="btn", value="Register", type="submit")

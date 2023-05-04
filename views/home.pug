@@ -1,0 +1,14 @@
+block content
+    a(class='button' href='/login') Login
+    p #{user}
+    form(action="/logout" method="POST")
+        button(class="btn" type="submit" name="logout" id="logout") Logout
+    form(action="/add-item" method="POST")
+        label(for="item") Add-item 
+        input(type="text" name="item" id="item")
+        input(class="btn", value="Add-item", type="submit")
+
+    if allposts.length > 0
+        ul
+            each snippet in allposts
+                li= snippet
