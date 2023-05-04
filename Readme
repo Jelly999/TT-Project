@@ -1,0 +1,5 @@
+1. Download files 
+2. Unzip
+3. Navigate to folder in commandline
+4. npm start in commandline
+5. Navigate to http://localhost:3000/ in modern browser
